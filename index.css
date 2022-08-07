@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 500px;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b244a;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+ /* h3  { */
+    /* width: 149px;
+    height: 36px; */
+    /* margin-left: 120px;
+    margin-top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px; */
+    /* identical to box height, or 90% */
+     /* text-align: center;
+    color: #EEEEEE;
+    margin-top:70px ;  */
+    
+/* } */
+.home {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin-top:30px;
+    margin-left:60px;
+}
+.guest {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin-top:30px ;
+    margin-right:-190px;
+}
+#home-p {
+    background: #080001;
+    border-radius: 5px;
+    margin-top:60px ;
+    color: #EEEEEE;
+    margin-top:120px;
+    margin-left:-20px;
+    margin-right: 0px;
+    width: 100px;
+    height: 120px;  
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+}
+
+#guest-p {
+    margin-top:100px;
+    margin-right: 50px;
+    color: #EEEEEE;
+    margin-top: 120px;
+    background: #080001;
+    border-radius: 5px;
+    /* width: 155px;
+    height: 120px; */
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+}
