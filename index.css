@@ -1,10 +1,11 @@
+@font-face {font-family:"Cursed Timer ULiL";src:url("CursedTimerULiL.eot?") format("eot"),url("CursedTimerULiL.woff") format("woff"),url("CursedTimerULiL.ttf") format("truetype"),url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");font-weight:normal;font-style:normal;}
 body {
     margin: 0;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 350px;
     width: 500px;
     /* align-items: center; */
@@ -38,8 +39,8 @@ body {
     font-size: 40px;
     line-height: 36px;
     color: #EEEEEE;
-    margin-top:30px;
-    margin-left:60px;
+    margin-top:20px;
+    margin-left:10px;
 }
 .guest {
     font-family: 'Verdana';
@@ -48,38 +49,41 @@ body {
     font-size: 40px;
     line-height: 36px;
     color: #EEEEEE;
-    margin-top:30px ;
-    margin-right:-190px;
+    margin-top:20px;
+    margin-right:-200px;
 }
 #home-p {
     background: #080001;
     border-radius: 5px;
     margin-top:60px ;
-    color: #EEEEEE;
+    color: #F94F6D;
     margin-top:120px;
-    margin-left:-20px;
-    margin-right: 0px;
-    width: 100px;
+    margin-left:-190px;
+    margin-right: 10px;
+    width: 155px;
     height: 120px;  
-    font-family: Cursed Timer ULiL;
+    font-family:"Cursed Timer ULiL";
     font-size: 90px;
     font-weight: 400;
     line-height: 127px;
     letter-spacing: 0em;
+    text-align: center;
 }
 
 #guest-p {
     margin-top:100px;
-    margin-right: 50px;
-    color: #EEEEEE;
+    margin-right: 10px;
+    color: #F94F6D;
     margin-top: 120px;
     background: #080001;
     border-radius: 5px;
-    /* width: 155px;
-    height: 120px; */
-    font-family: Cursed Timer ULiL;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    font-family:"Cursed Timer ULiL";
     font-size: 90px;
     font-weight: 400;
     line-height: 127px;
     letter-spacing: 0em;
+    text-align: center;
 }
