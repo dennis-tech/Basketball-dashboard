@@ -2,26 +2,30 @@
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
-    <body>
+    <body>          
         <div class="container">
             <div id="main-home">
-                <h3 class="home">HOME</h3>
-                <p id="home-p">60</p>
+                <h3 class="home" id="home-winner">HOME</h3>
+                <p id="home-p">0</p>
                 <div class="values-home">
-                    <p id="values-1">+1</p>
-                    <p id="values-2">+2</p>
-                    <p id="values-3">+3</p>
+                    <p id="values-1" onclick="addOne()">+1</p>
+                    <p id="values-2"onclick="addTwo()">+2</p>
+                    <p id="values-3"onclick="addThree()">+3</p>
                 </div>
             </div>        
-            <div id="main-home">
-                <h3 class="guest">GUEST</h3>
-                <p id="guest-p">61</p>
+            <div id="main-guest">
+                <h3 class="guest" id="guest-winner">GUEST</h3>
+                <p id="guest-p">0</p>
                 <div class="values-guest">
-                    <p id="values-4">+1</p>
-                    <p id="values-5">+2</p>
-                    <p id="values-6">+3</p>
+                    <p id="values-4"onclick="addOne4()">+1</p>
+                    <p id="values-5"onclick="addTwo5()">+2</p>
+                    <p id="values-6"onclick="addThree6()">+3</p>
                 </div> 
-            </div>                          
+            </div>
+            <div>
+                <button id="game-btn">NEW GAME</button>   
+            </div>
+                                 
         </div>
         
         
