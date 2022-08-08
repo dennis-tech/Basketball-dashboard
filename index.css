@@ -1,37 +1,23 @@
 @font-face {font-family:"Cursed Timer ULiL";src:url("CursedTimerULiL.eot?") format("eot"),url("CursedTimerULiL.woff") format("woff"),url("CursedTimerULiL.ttf") format("truetype"),url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");font-weight:normal;font-style:normal;}
 body {
     margin: 0;
-}
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+/* whole container */
 .container {
     display: flex;
-    justify-content: space-evenly;
-    height: 350px;
-    width: 500px;
-    /* align-items: center; */
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #1b244a;
-    margin-top: 50px;
-    display: flex;
     flex-direction: row;
+    width:600px;
+    height:400px;
+    background-color: #1b244a;
 }
- /* h3  { */
-    /* width: 149px;
-    height: 36px; */
-    /* margin-left: 120px;
-    margin-top: 68px;
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 36px; */
-    /* identical to box height, or 90% */
-     /* text-align: center;
-    color: #EEEEEE;
-    margin-top:70px ;  */
-    
-/* } */
+
+/* home div */
 .home {
     font-family: 'Verdana';
     font-style: normal;
@@ -39,9 +25,52 @@ body {
     font-size: 40px;
     line-height: 36px;
     color: #EEEEEE;
-    margin-top:20px;
-    margin-left:10px;
+    margin-bottom: 20px;
 }
+#main-home {
+    margin-right: 10px;
+    width: 100%;
+    word-wrap: break-word;
+    margin-left: 40px;
+    padding-right: 20px;
+    margin-top: 60px;   
+}
+.values-home {
+    display: flex;
+    flex-direction: row;
+}
+#home-p {
+    color: #F94F6D;
+    font-family:"Cursed Timer ULiL";
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #080001;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 155px;
+}
+#values-1, #values-2, #values-3 {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #1b244a;
+}
+#values-2 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* guest div */
 .guest {
     font-family: 'Verdana';
     font-style: normal;
@@ -49,41 +78,46 @@ body {
     font-size: 40px;
     line-height: 36px;
     color: #EEEEEE;
-    margin-top:20px;
-    margin-right:-200px;
+    margin-bottom: 20px;
 }
-#home-p {
-    background: #080001;
-    border-radius: 5px;
-    margin-top:60px ;
+#guest-p {
     color: #F94F6D;
-    margin-top:120px;
-    margin-left:-190px;
-    margin-right: 10px;
-    width: 155px;
-    height: 120px;  
     font-family:"Cursed Timer ULiL";
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 400;
-    line-height: 127px;
-    letter-spacing: 0em;
+    margin-top: 10px;
+    background: #080001;
+    border-radius: 8px;
+    padding: 10px;
     text-align: center;
+    margin-bottom: 0px;
+    width: 155px;
+}
+.values-guest {
+    display: flex;
+    flex-direction: row;
+}
+#main-guest {
+    width: 100%;
+    word-wrap: break-word;
+    margin-top: 40px;
+
+}
+#values-4, #values-5, #values-6 {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #1b244a;
+}
+#values-5 {
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-#guest-p {
-    margin-top:100px;
-    margin-right: 10px;
-    color: #F94F6D;
-    margin-top: 120px;
-    background: #080001;
-    border-radius: 5px;
-    width: 155px;
-    height: 120px;
-    border-radius: 5px;
-    font-family:"Cursed Timer ULiL";
-    font-size: 90px;
-    font-weight: 400;
-    line-height: 127px;
-    letter-spacing: 0em;
-    text-align: center;
-}
