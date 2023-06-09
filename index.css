@@ -1,41 +1,48 @@
-@font-face {font-family:"Cursed Timer ULiL";src:url("CursedTimerULiL.eot?") format("eot"),url("CursedTimerULiL.woff") format("woff"),url("CursedTimerULiL.ttf") format("truetype"),url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+    font-family:"Cursed Timer ULiL";
+    src:url("CursedTimerULiL.eot?") format("eot"),url("CursedTimerULiL.woff") format("woff"),url("CursedTimerULiL.ttf") format("truetype"),url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
 body {
-    margin: 0;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    background:#778da9;
 
 }
+
 /* ---whole container--- */
+
 .container {
     display: flex;
-    /* flex-direction: row; */
     width:600px;
     height:400px;
     background-color: #1b244a;
 }
 
 /* ---home div--- */
-#main-home {
-    margin-right: 10px;
+
+.main-home {
     width: 100%;
-    word-wrap: break-word;
-    margin-left: 70px;
-    padding-right: 20px;
-    margin-top: 60px;   
+    padding: 0 20px 0 0;
+    margin: 60px 10px 0px 70px;   
 }
-.home {
+
+.home,
+.guest{
     font-family: 'Verdana';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 36px;
     color: #EEEEEE;
     margin-bottom: 20px;
 }
-#home-p {
+
+.home-p,
+.guest-p {
     color: #F94F6D;
     font-family:"Cursed Timer ULiL";
     font-size: 60px;
@@ -48,13 +55,20 @@ body {
     text-align: center;
     width: 155px;
 }
-.values-home {
+
+.values-home,
+.values-guest {
     display: flex;
     flex-direction: row;
 }
-#values-1, #values-2, #values-3 {
+
+.values-1,
+.values-2,
+.values-3,
+.values-4, 
+.values-5, 
+.values-6 {
     font-family: 'Cursed Timer ULiL';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -65,62 +79,35 @@ body {
     padding: 8px;
     cursor: pointer;
 }
-#values-2 {
+
+
+.values-1:hover,
+.values-2:hover,
+.values-3:hover,
+.values-4:hover, 
+.values-5:hover, 
+.values-6:hover{
+    transform: scale(1.1);
+}
+
+
+.values-2,
+.values-5 {
     margin-right: 15px;
     margin-left: 15px;
 }
 
 /* ---guest div--- */
-#main-guest {
+
+.main-guest {
     width: 100%;
-    word-wrap: break-word;
     margin-top: 60px;
 }
-.guest {
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 36px;
-    color: #EEEEEE;
-    margin-bottom: 20px;
-}
-#guest-p {
-    color: #F94F6D;
-    font-family:"Cursed Timer ULiL";
-    font-size: 60px;
-    font-weight: 400;
-    margin-top: 10px;
-    background: #080001;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    margin-bottom: 0px;
-    width: 155px;
-}
-.values-guest {
-    display: flex;
-    flex-direction: row;
-}
-#values-4, #values-5, #values-6 {
-    font-family: 'Cursed Timer ULiL';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    color: #9AABD8;
-    border: 2px solid #9AABD8;
-    border-radius: 5px;
-    padding: 8px;
-    cursor: pointer;
-}
-#values-5 {
-    margin-right: 15px;
-    margin-left: 15px;
-}
-/* ---BUTTON--- */
-#game-btn {
+
+
+/* ---NEW GAME BUTTON--- */
+
+.game-btn {
     background-color: #1b244a;
     border: 2px solid #9AABD8;
     color: #9AABD8;
