@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:#778da9;
+    background:#001d3d;
 
 }
 
@@ -20,7 +20,7 @@ body {
     display: flex;
     width:600px;
     height:400px;
-    background-color: #1b244a;
+    background-color: #003566;
 }
 
 /* ---home div--- */
@@ -31,19 +31,22 @@ body {
     margin: 60px 10px 0px 70px;   
 }
 
+
+
+
 .home,
 .guest{
     font-family: 'Verdana';
     font-weight: 700;
     font-size: 40px;
     line-height: 36px;
-    color: #EEEEEE;
+    color: #ffd60a;
     margin-bottom: 20px;
 }
 
 .home-p,
 .guest-p {
-    color: #F94F6D;
+    color: #ffc300;
     font-family:"Cursed Timer ULiL";
     font-size: 60px;
     font-weight: 400;
@@ -86,8 +89,10 @@ body {
 .values-3:hover,
 .values-4:hover, 
 .values-5:hover, 
-.values-6:hover{
+.values-6:hover,
+.game-btn:hover{
     transform: scale(1.1);
+    
 }
 
 
@@ -108,14 +113,14 @@ body {
 /* ---NEW GAME BUTTON--- */
 
 .game-btn {
-    background-color: #1b244a;
-    border: 2px solid #9AABD8;
+    background-color: #000814;
+    border: none;
     color: #9AABD8;
     padding: 10px;
-    display: inline-block;
+    display: block;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
     margin-top: 330px;
-    margin-left: -350px;
+    margin-left: -360px;
 }
