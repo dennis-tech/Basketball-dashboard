@@ -59,7 +59,6 @@ function reset(){
     gameScoreHome.innerHTML = 0;
     gameScoreAway.innerHTML = 0;
 }
-console.log(gameScoreHome.innerHTML, gameScoreAway.innerHTML);
 
 
 
